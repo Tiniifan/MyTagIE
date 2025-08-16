@@ -1,4 +1,4 @@
-# MyTagIE
+# MyTagsIE
 
 MyTagIE provides enhanced tag definitions for editing .cfg.bin files using CfgBinEditor.  
 These binary configuration files contain game data such as player statistics, team information, and other game parameters.
