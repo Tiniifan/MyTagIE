@@ -1,0 +1,652 @@
+IEGO [
+	NPC_BASE (
+		Hash|True
+		HeadHash|False
+		Type|False
+		Unk1|False
+		UniformNumber|False
+		BootNumber|False
+		GloveNumber|False
+		IconNumber|False
+	)
+
+	NPC_PRESET (
+		Hash|True
+		NPCAppearStartIndex|False
+		NPCAppearCount|False
+	)
+
+	NPC_APPEAR (
+		LocationX|False
+		LocationZ|False
+		LocationY|False
+		Unk1|False
+		Unk2|False
+		Rotation|False
+		StandAnimation|False
+		LookAtThePlayer|False
+		TalkAnimation|False
+		UnkAnimation|False
+		Unk7|False
+		PhaseAppear|False
+		Unk8|False
+	)
+
+	CHARA_BASE_INFO (
+		BaseHash|True
+		ModelNumber|False
+		NameHash|True
+		NicknameHash|True
+		CharaBaseType|False
+		Unk1|False
+		Unk2|False
+		Body|False
+		Skin|False
+		Gender|False
+		Year|False
+		DescriptionHash|True
+	)
+
+	CHARA_PARAM_INFO (
+		ParamHash|True
+		BaseHash|True
+		FP|False
+		TP|False
+		Kick|False
+		Dribble|False
+		Technique|False
+		Block|False
+		Speed|False
+		Stamina|False
+		Catch|False
+		Luck|False
+		Element|False
+		PlayerPosition|False
+		DescriptionHash|True
+		Freedom|False
+		FightingSpiritHash|False
+		SpecialMoveCount|False
+		SpecialMoveOffset|False
+		PlayerGroup|False
+		ExperienceGrow|False
+		StatVariance|False
+		Unk2|False
+		FPGrow|False
+		TPGrow|False
+		KickGrow|False
+		DribbleGrow|False
+		TechniqueGrow|False
+		BlockGrow|False
+		SpeedGrow|False
+		StaminaGrow|False
+		CatchGrow|False
+		LuckGrow|False
+		Unk3|False
+		Unk4|False
+		Unk5|False
+		Unk6|False
+		Unk7|False
+		Unk8|False
+		TrainingUD|False
+		Unk9|False
+		FightingSpiritMatchHash|True
+	)
+
+	TALK_INFO (
+		NPCBaseHash|True
+		TalkConfigStartIndex|False
+		TalkConfigCount|False
+	)
+
+	TALK_CONFIG (
+		EventType|False
+		EventValue|False
+		EventCondition|False
+		AutoTurn|False
+	)
+
+	SKILL_CONFIG_INFO (
+		SkillID|True
+		NameID|True
+		DescriptionID|True
+		Element|False
+		EvolutionType|False
+		EvolutionGrow|False
+		SkillPosition|False
+		TPCost|False
+		Animation|False
+		SkillType|False
+		EffectType|False
+		PartnerNumber|False
+		Unk1|False
+		Unk2|False
+		Unk3|False
+		Fault|False
+		Power|False
+		Technique|False
+		BoostActiveOn|False
+		SkillBoost|False
+		NameWazaID|True
+	)
+
+	SOCCER_INFO (
+		SoccerID|True
+		TeamParamID|True
+		SoccerMode|False
+		Unk3|False
+		Unk4|False
+		Sound|False
+		VictoryCondition|False
+		Script|False
+		Time|False
+		NextScript|False
+	)
+
+	ENCOUNT_TEAM_INFO (
+		Unk0|True
+		Unk1|True
+	)
+
+	TEAM_PARAM_INFO (
+		TeamParamID|True
+		TeamConfigID|True
+		Friendship|False
+		Prestige|False
+		VictoryPoints|False
+		BootsID|True
+		GlovesID|True
+		BraceletID|True
+		PendantID|True
+		DropID1|True
+		DropID2|True
+		DropID3|True
+		DropID4|True
+		DropID5|True
+		Uniform|False
+		DropRate1|False
+		DropRate2|False
+		DropRate3|False
+		DropRate4|False
+		DropRate5|False
+		FormationID|True
+		Level|False
+		DropID6|True
+		DropRate6|False
+		NicePlayBonus|False
+		CoachID|True
+		TacticID|True
+		AILevel|False
+	)
+
+	STORY_TEAM_INFO (
+		TeamConfigID|True
+		NameID|True
+		Player1|True
+		NumberPlayer1|False
+		Player2|True
+		NumberPlayer2|False
+		Player3|True
+		NumberPlayer3|False
+		Player4|True
+		NumberPlayer4|False
+		Player5|True
+		NumberPlayer5|False
+		Player6|True
+		NumberPlayer6|False
+		Player7|True
+		NumberPlayer7|False
+		Player8|True
+		NumberPlayer8|False
+		Player9|True
+		NumberPlayer9|False
+		Player10|True
+		NumberPlayer10|False
+		Player11|True
+		NumberPlayer11|False
+		Player12|True
+		NumberPlayer12|False
+		Player13|True
+		NumberPlayer13|False
+		Player14|True
+		NumberPlayer14|False
+		Player15|True
+		NumberPlayer15|False
+		Player16|True
+		NumberPlayer16|False
+		Emblem|False
+		Emblem|False
+		Emblem|False
+		DifferenceLevelPlayer1|False
+		DifferenceLevelPlayer2|False
+		DifferenceLevelPlayer3|False
+		DifferenceLevelPlayer4|False
+		DifferenceLevelPlayer5|False
+		DifferenceLevelPlayer6|False
+		DifferenceLevelPlayer7|False
+		DifferenceLevelPlayer8|False
+		DifferenceLevelPlayer9|False
+		DifferenceLevelPlayer10|False
+		DifferenceLevelPlayer11|False
+		DifferenceLevelPlayer12|False
+		DifferenceLevelPlayer13|False
+		DifferenceLevelPlayer14|False
+		DifferenceLevelPlayer15|False
+		DifferenceLevelPlayer16|False
+		Unk53|False
+		Unk54|False
+		Unk55|False
+	)
+
+	NOUN_INFO (
+		Unk0|True
+	)
+
+	TEXT_INFO (
+		Unk0|True
+	)
+
+	ITEM_EQUIPMENT (
+		ItemID|True
+		NameID|True
+		DescriptionID|True
+		Unk3|False
+		ItemCategory|False
+		MaxQuantity|False
+		CanBeSold|False
+		CanBeBought|False
+		SellingPrice|False
+		PurchasePrice|False
+		Unk10|False
+		TP|False
+		GP|False
+		Kick|False
+		Dribble|False
+		Technique|False
+		Block|False
+		Speed|False
+		Stamina|False
+		Catch|False
+		Luck|False
+		ItemNum|False
+		ItemPosX|False
+		ItemPosY|False
+		KiznaxHintTextID|True
+	)
+
+	ITEM_CONSUME (
+		ItemID|True
+		NameID|True
+		DescriptionID|True
+		Unk1|False
+		Unk2|False
+		MaxQuantity|False
+		CanBeThrow|False
+		CanBeSell|False
+		SellingPrice|False
+		PurchasePrice|False
+		ItemSubCategory|False
+		Unk5|False
+		SpecialMoveID|True
+		Unk6|False
+		ItemNumber|False
+		IconPosX|False
+		IconPosY|False
+		Unk7|False
+		KiznaxHintTextID|True
+	)
+
+	ITEM_IMPORTANT (
+		ItemID|True
+		NameID|True
+		DescriptionID|True
+		Unk3|False
+		Unk4|False
+		Unk5|False
+		Unk6|False
+		Unk7|False
+		ItemNumber|False
+		Unk9|False
+		Unk10|False
+		Unk11|False
+		Unk12|False
+		Unk13|True
+	)
+
+	ITEM_UNIFORM (
+		Unk0|True
+		Unk1|True
+		Unk2|True
+		Unk3|False
+		Unk4|False
+		Unk5|False
+		Unk6|False
+		Unk7|False
+		Unk8|False
+		Unk9|False
+		Unk10|False
+		Unk11|False
+		Unk12|False
+		Unk13|False
+		Unk14|False
+		Unk15|False
+		Unk16|False
+		Unk17|False
+		Unk18|False
+		Unk19|False
+		Unk20|False
+		Unk21|False
+		Unk22|False
+		Unk23|True
+	)
+
+	ITEM_KIZUNAX (
+		ItemID|True
+		NameID|True
+		DescriptionID|True
+		Unk4|False
+		Unk5|False
+		Unk6|False
+		Unk7|False
+		Unk8|False
+		BoughtPrice|False
+		Unk10|False
+		Unk11|False
+		Unk12|True
+		Unk13|False
+		Unk14|True
+		Unk15|False
+		Unk16|False
+		Unk17|True
+		Unk18|False
+		Unk19|False
+		Unk20|False
+		Unk21|False
+		Unk22|True
+		Unk23|False
+		Unk24|False
+		Unk25|False
+		Unk26|False
+		Unk27|False
+	)
+
+	ITEM_AVATAR (
+		ItemID|True
+		ItemNumber|False
+		NameID|True
+		FullNameID|True
+		DescriptionID|True
+		Unk5|False
+		ItemCategory|False
+		CanBeSold|False
+		CanBeBought|False
+		SellingPrice|False
+		PurchasePrice|False
+		Unk11|False
+		FG|False
+		Power|False
+		EvolutionStatGrow|False
+		Position|False
+		Unk16|False
+		Element|False
+		Unk18|False
+		MaxQuantity|False
+		SpecialMoveID|True
+		SkillID|True
+		EvolutionGrow|False
+		ItemPosX|False
+		ItemPosY|False
+		FusionID|True
+		Partner1FusionID|True
+		Partner2FusionID|True
+		Unk28|False
+	)
+
+	ITEM_DIRECTOR (
+		ItemID|True
+		ItemNumber|False
+		NameID|True
+		DescriptionID|True
+		Unk4|False
+		ItemCategory|False
+		Unk6|False
+		Unk7|False
+		Unk8|False
+		PlayerGroupBuff1|False
+		PlayerGroupBuff2|False
+		PlayerGroupBuff3|False
+		PlayerGroupDebuff1|False
+		PlayerGroupDebuff2|False
+		PlayerGroupDebuff3|False
+		FPCompatible|False
+		TPCompatible|False
+		KickCompatible|False
+		DribbleCompatible|False
+		TechniqueCompatible|False
+		BlockCompatible|False
+		SpeedCompatible|False
+		StaminaCompatible|False
+		CatchCompatible|False
+		LuckCompatible|False
+		FPNoCompatible|False
+		TPNoCompatible|False
+		KickNoCompatible|False
+		DribbleNoCompatible|False
+		TechniqueNoCompatible|False
+		BlockNoCompatible|False
+		SpeedNoCompatible|False
+		StaminaNoCompatible|False
+		CatchNoCompatible|False
+		LuckNoCompatible|False
+		ItemPositionX|False
+		ItemPositionY|False
+		Unk37|False
+	)
+
+	PASSWORD_CONFIG (
+		RewardID|True
+		PassFlag|False
+		RewardType|False
+		Password|False
+	)
+
+	PASSWORD_CONFIG_BEGIN (
+		ItemCount|False
+		Key|False
+	)
+
+	SHOP_CONFIG_INFO (
+		ItemID|True
+		Condition|False
+	)
+
+	SHOP_CONFIG_INFO_BEGIN (
+		ShopID|True
+		ItemCount|False
+	)
+
+	SKILL_INDEX (
+		Level|False
+		Level|False
+		Level|False
+		Level|False
+		Level|False
+	)
+
+	ROUTE_CONFIG (
+		Flag|False
+		CellType|False
+		ContentID|True
+		MatchRestriction|False
+		CellNum|False
+		CellLink1|False
+		CellLink2|False
+		CellLink3|False
+		Condition|False
+		Map|False
+		Unk10|False
+		MatchTextLock|False
+	)
+
+	ROUTE_CONFIG_BEGIN (
+		CellCount|False
+		RouteName|True
+	)
+
+	VALUE_INFO (
+		Unk0|True
+	)
+
+	FORM_INFO (
+		PlayerNumber|False
+		PlayerType|False
+		Unk2|False
+		Unk3|False
+		Unk4|False
+		Unk5|False
+		Unk6|False
+		Unk7|False
+		Unk8|False
+		Unk9|False
+		Unk10|False
+		Unk11|False
+		Unk12|False
+		Unk13|False
+		Unk14|False
+		Unk15|False
+		Unk16|False
+		Unk17|False
+		Unk18|False
+		Unk19|False
+		Unk20|False
+		Unk21|False
+		unk22|False
+	)
+
+	ITEM_REF (
+		ItemID|True
+		ItemCategory|False
+		ItemNum|False
+	)
+
+	TEXT_WASHA (
+		Unk0|False
+		NicknameID|True
+	)
+
+	TEXT_CONFIG (
+		Unk0|True
+	)
+
+	ENCOUNT_INFO (
+		ChasePlayer|False
+		TeamID|True
+		Unk2|False
+		LocationX|False
+		LocationZ|False
+		LocationY|False
+		Unk6|False
+		Unk7|False
+		Rotation|False
+		TextIDAsk|True
+		TextIDWait|True
+		Condition|False
+		PlayerID1|True
+		PlayerID2|True
+		PlayerID3|True
+		PlayerID4|True
+		PlayerID5|True
+		Uniform|False
+		Boots|False
+		TextIDLost|True
+		TextIDWin|True
+		Unk21|True
+	)
+
+	GFONT_CONFIG (
+		LetterUTF8Code|False
+		FontSkillMiniPosX|False
+		FontSkillMiniPosY|False
+		FontSkillMiniWidth|False
+		FontSkillMiniHeight|False
+		FontSkillWazaPosX|False
+		FontSkillWazaPosY|False
+		FontSkillWazaPosWidth|False
+		FontSkillWazaPosHeigth|False
+		FontTeamPosX|False
+		FontTeamPosY|False
+		FontTeamPosWidth|False
+		FontTeamPosHeigth|False
+	)
+
+	KERNING (
+		LetterUTF8Code|False
+		KerningConfigIndex|False
+		KerningConfigCount|False
+	)
+
+	KERNING_CONFIG (
+		LetterUTF8Code|False
+		KerningDistance|False
+	)
+]
+
+IEGOGalaxy [
+	STORY_TEAM_INFO (
+		TeamConfigID|False
+		NameID|False
+		Emblem1|False
+		Emblem2|False
+		Emblem3|False
+		PLayer1|False
+		Unk6|False
+		Unk7|False
+		Player2|False
+		Unk9|False
+		Unk10|False
+		Player3|False
+		Unk12|False
+		Unk13|False
+		Player4|False
+		Unk15|False
+		Unk16|False
+		Player5|False
+		Unk18|False
+		Unk19|False
+		Player6|False
+		Unk21|False
+		Unk22|False
+		Player7|False
+		Unk24|False
+		Unk25|False
+		Player8|False
+		Unk27|False
+		Unk28|False
+		Player9|False
+		Unk30|False
+		Unk31|False
+		Player10|False
+		Unk33|False
+		Unk34|False
+		Player11|False
+		Unk36|False
+		Unk37|False
+		Player12|False
+		Unk39|False
+		Unk40|False
+		Player13|False
+		Unk42|False
+		Unk43|False
+		Player14|False
+		Unk45|False
+		Unk46|False
+		Player15|False
+		Unk48|False
+		Unk49|False
+		Player16|False
+		Unk51|False
+		Unk52|False
+		Capitaine|False
+		Unk54|False
+		Unk55|False
+	)
+]
